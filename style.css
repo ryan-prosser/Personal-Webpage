@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0px
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header, footer {
+  background-color: #002855;
+}
+
+header h1, header h2, header nav, footer {
+  text-align: center;
+  color: white;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 65px;
+}
+
+header h2 {
+  font-family: georgia;
+  padding-bottom: 20px;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+h3 {
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+main {
+  background-color: #93bdcc;
+  padding: 30px 700px;
+}
+
+main h2 {
+  text-align: center;
+}
+
+hr {
+  margin-top: 35px;
+  height: 1px;
+  background-color: #000000;
+  border: none;
+}
+
+/* this is the pseudo class for the link colors */
+a:link {color: gold}
+a:visited {color: mediumpurple}
+a:hover {color: red }
+a:active {color: black;}
+
+header {
+  padding-bottom: 20px;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h4 {
+  padding-bottom: 20px;
+  font-size: 22px
+}
+
+h3 {
+  text-align: center;
+}
