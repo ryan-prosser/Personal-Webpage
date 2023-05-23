@@ -1,3 +1,4 @@
+/* this ensures that any box I do add has the proper sizing and I also took the margin away from everything because I wanted to get rid of the white outline online */
 * {
   box-sizing: border-box;
   margin: 0px
@@ -8,19 +9,23 @@ html {
   width: 100%;
 }
 
+/* gives a common background color for the top and bottom of my page */
 header, footer {
   background-color: #002855;
 }
 
+/* centers all of my headings and text that is in the footer and header as well as makes it white because it's on a dark background*/
 header h1, header h2, header nav, footer {
   text-align: center;
   color: white;
 }
 
+/* used this to center my image */
 div {
   text-align: center;
 }
 
+/* the next 3 focus on the headings I am using and editing the text as well as spacing them out so they look better and not on top of each other*/
 h1 {
   font-family: monospace;
   font-size: 65px;
@@ -38,15 +43,13 @@ h3 {
   padding-bottom: 10px;
 }
 
+/* this adds a new background color to compliment the dark blue that isn't just white as well as pushing the text of everything in it more to the middle but still left aligned */
 main {
   background-color: #93bdcc;
-  padding: 30px 700px;
+  padding: 30px 400px;
 }
 
-main h2 {
-  text-align: center;
-}
-
+/* this edits my line breaks */
 hr {
   margin-top: 35px;
   height: 1px;
@@ -60,6 +63,7 @@ a:visited {color: mediumpurple}
 a:hover {color: red }
 a:active {color: black;}
 
+/* the next 3 focus on the padding in my header and footer so their is decent spacing */
 header {
   padding-bottom: 20px;
 }
@@ -74,6 +78,7 @@ h4 {
   font-size: 22px
 }
 
+/* this centers the subheadings in my main section because I changed them to h3 at the end of my work */
 h3 {
   text-align: center;
 }
