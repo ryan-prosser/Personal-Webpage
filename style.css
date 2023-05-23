@@ -20,9 +20,11 @@ header h1, header h2, header nav, footer {
   color: white;
 }
 
-/* used this to center my image */
+/* used this to center my image, keep the background color and add padding */
 div {
   text-align: center;
+  background-color:#93bdcc;
+  padding-top: 30px;
 }
 
 /* the next 3 focus on the headings I am using and editing the text as well as spacing them out so they look better and not on top of each other*/
